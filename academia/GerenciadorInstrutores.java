@@ -1,3 +1,4 @@
+package academia;
 import java.util.ArrayList;
 
 public class GerenciadorInstrutores {
@@ -26,7 +27,7 @@ public class GerenciadorInstrutores {
 
     }
 
-    public Instrutor buscarInstrutor(int caef) {
+    /* public Instrutor buscarInstrutor(int caef) {
         
-    }
+    } */
 }

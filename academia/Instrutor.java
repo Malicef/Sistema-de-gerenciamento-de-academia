@@ -1,4 +1,5 @@
-public class Instrutor extends pessoa {
+package academia;
+public class Instrutor extends Pessoa {
     private int caef;
 
     public Instrutor(int caef, String nome, String cidade, String rua, int cpf, int cep) {
