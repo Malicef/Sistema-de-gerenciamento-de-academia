@@ -14,12 +14,16 @@ public class Pessoa {
     ArrayList<Pessoa> listaDePessoas = new ArrayList<>();
     Scanner input = new Scanner(System.in);
 
-    public Pessoa(String nome, String cidade, String rua, String cpf, String cep) {
+    public Pessoa(String nome, String cidade, String rua, String cpf2, String cep2) {
         this.nome = nome;
         this.cidade = cidade;
         this.rua = rua;
         this.cpf = cpf;
         this.cep = cep;
+    }
+
+    public Pessoa(String nome2, String cidade2, String rua2, int cpf2, int cep2) {
+
     }
 
     public String getNome() {

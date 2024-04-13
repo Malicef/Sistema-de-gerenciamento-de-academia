@@ -2,7 +2,7 @@ package academia;
 import java.util.ArrayList;
 
 public class GerenciadorInstrutores {
-    private ArrayList<Instrutor> instrutores;
+    private ArrayList<Instrutor> instrutores = new ArrayList<>();
 
     public GerenciadorInstrutores() {
         this.instrutores = new ArrayList<>();
