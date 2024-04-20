@@ -67,6 +67,7 @@ public class Pessoa {
     }
     
     public void cadastraPessoa(String nome, String cpf, String cidade, String rua, String cep){
+        System.out.println("Digite as informações da pessoa que deseja cadastrar no sistema");
         System.out.println("Nome: ");
         nome = input.nextLine();
         System.out.println("CPF: ");
